@@ -1,0 +1,1819 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: white;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: -80px;
+    overflow: hidden;
+    /*background: url('Assets/header-gradient.png') no-repeat center center; */
+    background-size: cover; /* Makes the background image stretch to fit */
+}
+
+
+.heada {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: -80px;
+    overflow: hidden;
+    background: url('Assets/Shape.png') no-repeat center center;
+    background-size: cover; /* Makes the background image stretch to fit */
+}
+
+.headp {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: -80px;
+    overflow: hidden;
+    background: url('Assets/Hshape.png') no-repeat center center;
+    background-size: cover; /* Makes the background image stretch to fit */
+
+
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 80px;
+    margin-top: 40px;
+}
+
+.navbar .logo {
+    height: 80px;
+    margin-top: -30px;
+}
+
+.navbar nav a {
+    margin: 0px 10px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+.hero {
+    text-align: left;
+    padding: 80px;
+    color: white;
+    margin-top: -60px;
+
+}
+
+.hero h1 {
+    font-size: 4em;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.hero button {
+    background-color: #3EBDEA;
+    border-radius: 30px;
+    color: #103E8D;
+    padding: 15px 20px;
+    border: none;
+    font-size: 1.4em;
+    cursor: pointer;
+    justify-content: flex-start;
+    transition: transform 0.2s;
+}
+
+.hero button:hover {
+    background: #ff5779;
+    transform: scale(1.05);
+}
+
+.hero-image {
+    width: 80%;
+    margin-top: 20px;
+    float: right;
+}
+
+.hero-image-m {
+    width: 40%;
+    margin-top: -200px;
+    margin-bottom: -150px;
+    margin-right: -80px;
+    float: right;
+}
+
+
+.hero-image-p {
+    width: 70%;
+    margin-top: -110px;
+    margin-left: -42px;
+    margin-bottom: -30px;
+    float: left;
+}
+
+
+
+
+
+
+/*Header of home page*/
+
+.headi {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: -80px;
+    overflow: hidden;
+    /*background: url('Assets/Shapes (1).png') no-repeat center center;*/
+    background-size: cover; /* Makes the background image stretch to fit */
+}
+
+
+/* Navbar */
+.navbari {
+    display: flex;
+    justify-content: space-between; /* Space between logo and nav links */
+    align-items: center; /* Align logo and nav links vertically */
+    padding: 0px 80px; /* Narrow padding for a compact navbar */
+    margin-top: 0;
+    position: fixed; /* Fix navbar position at the top */
+    width: 100%; /* Make navbar span the full width */
+    background: white; /* Navbar background */
+    z-index: 100; /* Ensure it stays above other content */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); /* Permanent shadow */
+    transition: box-shadow 0.3s ease; /* Smooth transition for shadow */
+}
+
+/* Add shadow when scrolling */
+
+.navbari.shadow {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4); /* Darker and larger shadow */
+    transition: box-shadow 0.3s ease; /* Smooth transition */
+}
+
+/* Logo */
+.navbari .logo {
+    height: 60px; /* Adjust height for the logo */
+}
+
+/* Nav links */
+.navbari nav {
+    display: flex;
+    gap: 20px; /* Space between nav links */
+}
+
+.navbari nav a {
+    padding: 10px;
+    color: #103E8D;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+/* Navbar stays narrow */
+.navbari nav a:hover {
+    color: #3EBDEA; /* Add hover effect for links */
+}
+
+
+.heroi {
+    text-align: left;
+    padding: 80px;
+    color: white;
+    margin-top: -60px;
+    height: 850px;
+
+    /* Background image */
+    background-image: url('Assets/Shapes (1).png'); /* Replace with your image path */
+
+    background-size: cover; /* Ensures the background image is properly fitted */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.heroi h1 {
+    font-size: 4em;
+    margin-bottom: 15px;
+    margin-top: 100px;
+    text-align: left;
+}
+
+.heroi button {
+    background-color: #3EBDEA;
+    border-radius: 30px;
+    color: #ffffff;
+    padding: 15px 20px;
+    border: none;
+    font-size: 1.4em;
+    cursor: pointer;
+    justify-content: flex-start;
+    transition: transform 0.2s;
+}
+
+.heroi button:hover {
+    background: #103E8D;
+    transform: scale(1.05);
+}
+
+.heroi-image {
+    width: 80%;
+    margin-top: -10px;
+    float: right;
+}
+
+
+
+
+
+/*Header of products page*/
+
+
+.headp {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: -80px;
+    overflow: hidden;
+    background: url('Assets/Hshape.png') no-repeat center center;
+    background-size: cover; /* Makes the background image stretch to fit */
+
+
+}
+
+/* Navbar */
+.navbarp {
+    display: flex;
+    justify-content: space-between; /* Space between logo and nav links */
+    align-items: center; /* Align logo and nav links vertically */
+    padding: 0px 80px; /* Narrow padding for a compact navbar */
+    margin-top: 0;
+    position: fixed; /* Fix navbar position at the top */
+    width: 100%; /* Make navbar span the full width */
+    background: white; /* Navbar background */
+    z-index: 100; /* Ensure it stays above other content */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); /* Permanent shadow */
+    transition: box-shadow 0.3s ease; /* Smooth transition for shadow */
+}
+
+/* Add shadow when scrolling */
+
+.navbarp.shadow {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4); /* Darker and larger shadow */
+    transition: box-shadow 0.3s ease; /* Smooth transition */
+}
+
+/* Logo */
+.navbarp .logo {
+    height: 60px; /* Adjust height for the logo */
+}
+
+/* Nav links */
+.navbarp nav {
+    display: flex;
+    gap: 20px; /* Space between nav links */
+}
+
+.navbarp nav a {
+    padding: 10px;
+    color: #103E8D;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+/* Navbar stays narrow */
+.navbarp nav a:hover {
+    color: #3EBDEA; /* Add hover effect for links */
+}
+
+
+
+
+
+
+.herop {
+    text-align: left;
+    padding: 80px;
+    color: white;
+    margin-top: 40px;
+
+}
+
+.herop h1 {
+    font-size: 4em;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.herop button {
+    background-color: #3EBDEA;
+    border-radius: 30px;
+    color: #103E8D;
+    padding: 15px 20px;
+    border: none;
+    font-size: 1.4em;
+    cursor: pointer;
+    justify-content: flex-start;
+    transition: transform 0.2s;
+}
+
+.herop button:hover {
+    background: #ff5779;
+    transform: scale(1.05);
+}
+
+.herop-image-m {
+    width: 40%;
+    margin-top: -200px;
+    margin-bottom: -150px;
+    margin-right: -80px;
+    float: right;
+}
+
+
+.herop-image-p {
+    width: 70%;
+    margin-top: -110px;
+    margin-left: -42px;
+    margin-bottom: -30px;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+/*Header of Professional Page*/
+
+.headph {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: -80px;
+    overflow: hidden;
+    background: white;
+    background-size: cover; /* Makes the background image stretch to fit */
+
+
+}
+
+
+/*
+.navbarph {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 80px;
+    margin-top: 20px;
+}
+
+.navbarph .logo {
+    height: 60px;
+    margin-top: -15px;
+}
+
+.navbarph nav a {
+    margin: 0px 10px;
+    padding: 10px;
+    color: #103E8D;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+*/
+
+
+/* Navbar */
+.navbarph {
+    display: flex;
+    justify-content: space-between; /* Space between logo and nav links */
+    align-items: center; /* Align logo and nav links vertically */
+    padding: 0px 80px; /* Narrow padding for a compact navbar */
+    margin-top: 0;
+    position: fixed; /* Fix navbar position at the top */
+    width: 100%; /* Make navbar span the full width */
+    background: white; /* Navbar background */
+    z-index: 100; /* Ensure it stays above other content */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); /* Permanent shadow */
+    transition: box-shadow 0.3s ease; /* Smooth transition for shadow */
+}
+
+/* Add shadow when scrolling */
+
+.navbarph.shadow {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4); /* Darker and larger shadow */
+    transition: box-shadow 0.3s ease; /* Smooth transition */
+}
+
+/* Logo */
+.navbarph .logo {
+    height: 60px; /* Adjust height for the logo */
+}
+
+/* Nav links */
+.navbarph nav {
+    display: flex;
+    gap: 20px; /* Space between nav links */
+}
+
+.navbarph nav a {
+    padding: 10px;
+    color: #103E8D;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+/* Navbar stays narrow */
+.navbarph nav a:hover {
+    color: #3EBDEA; /* Add hover effect for links */
+}
+
+
+
+.heroph {
+    text-align: left;
+    padding: 80px;
+    color: white;
+    margin-top: 10px;
+    height: 500px;
+
+    /* Background image */
+    background-image: url('Assets/herobg (3).png'); /* Replace with your image path */
+    background-size: cover; /* Ensures the background image is properly fitted */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.heroph h1 {
+    font-size: 4em;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.heroph button {
+    background-color: #ff6e8a;
+    border-radius: 30px;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    font-size: 1.4em;
+    cursor: pointer;
+    justify-content: flex-start;
+    transition: transform 0.2s;
+}
+
+.heroph button:hover {
+    background: #ff5779;
+    transform: scale(1.05);
+}
+
+.heroph-image-ph {
+    width: 40%;
+    margin-top: 20px;
+    margin-left: -40px;
+    margin-bottom: -20px;
+    float: left;
+}
+
+
+
+
+/*Header of per product*/
+
+
+.headpp {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: -80px;
+    overflow: hidden;
+
+
+
+}
+
+/* Navbar */
+.navbartc {
+    display: flex;
+    justify-content: space-between; /* Space between logo and nav links */
+    align-items: center; /* Align logo and nav links vertically */
+    padding: 0px 80px; /* Narrow padding for a compact navbar */
+    margin-top: 0;
+    position: fixed; /* Fix navbar position at the top */
+    width: 100%; /* Make navbar span the full width */
+    background: white; /* Navbar background */
+    z-index: 100; /* Ensure it stays above other content */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); /* Permanent shadow */
+    transition: box-shadow 0.3s ease; /* Smooth transition for shadow */
+}
+
+/* Add shadow when scrolling */
+
+.navbartc.shadow {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4); /* Darker and larger shadow */
+    transition: box-shadow 0.3s ease; /* Smooth transition */
+}
+
+/* Logo */
+.navbartc .logo {
+    height: 60px; /* Adjust height for the logo */
+}
+
+/* Nav links */
+.navbartc nav {
+    display: flex;
+    gap: 20px; /* Space between nav links */
+}
+
+.navbartc nav a {
+    padding: 10px;
+    color: #103E8D;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+/* Navbar stays narrow */
+.navbartc nav a:hover {
+    color: #3EBDEA; /* Add hover effect for links */
+}
+
+
+
+
+
+
+.herotc {
+    text-align: left;
+    padding: 80px;
+    color: white;
+    margin-top: 10px;
+    height: 400px;
+
+    /* Background image */
+    background-image: url('Assets/herobg.png'); /* Replace with your image path */
+    background-size: cover; /* Ensures the background image is properly fitted */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+
+}
+
+.herotc h1 {
+    font-size: 4em;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.herotc button {
+    background-color: #3EBDEA;
+    border-radius: 30px;
+    color: #103E8D;
+    padding: 15px 20px;
+    border: none;
+    font-size: 1.4em;
+    cursor: pointer;
+    justify-content: flex-start;
+    transition: transform 0.2s;
+}
+
+.herotc button:hover {
+    background: #ff5779;
+    transform: scale(1.05);
+}
+
+.herotc-image-m {
+    width: 40%;
+    margin-top: -200px;
+    margin-bottom: -150px;
+    margin-right: -80px;
+    float: right;
+}
+
+
+.herotc-image-p {
+    width: 70%;
+    margin-top: -110px;
+    margin-left: -42px;
+    margin-bottom: -30px;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about {
+    text-align: center;
+    padding: 80px;
+    color: white;
+    margin-top: -60px;
+}
+
+.about h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.about p {
+    font-size: 2.2em;
+    margin-bottom: 100px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.about button {
+    background-color: #ff6e8a;
+    border-radius: 30px;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    font-size: 1.4em;
+    cursor: pointer;
+    justify-content: flex-start;
+    transition: transform 0.2s;
+}
+
+.about button:hover {
+    background: #ff5779;
+    transform: scale(1.05);
+}
+
+.about-image {
+    width: 80%;
+    margin-top: 20px;
+    float: center;
+}
+
+/* Styling for the best product section */
+.best-product {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.best-product h2 {
+    font-size: 3em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #103E8D;
+}
+
+/* Container for the category buttons */
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+/* Styling for each category button */
+.category-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+    width: 500px; /* Adjust width as needed */
+}
+
+/* Styling for the category name */
+.category-name {
+    font-weight: bold;
+    font-size: 2em;
+    padding: 30px 100px;
+    margin-top: 20px;
+    color: #103E8D;
+}
+
+/* Styling for the category image */
+.category-image {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    margin-top: -10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+/* Hover effect */
+.category-button:hover .category-image {
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+/* Styling for the best product section 
+.house-product {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.house-product h2 {
+    font-size: 3em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #103E8D;
+}
+
+/* Container for the category buttons */
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+/* Styling for each category button */
+.products-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+    width: 500px; 
+}
+
+/* Styling for the category name */
+.products-name {
+    font-weight: bold;
+    font-size: 2em;
+    padding: 30px 100px;
+    margin-top: 20px;
+    color: #103E8D;
+}
+
+/* Styling for the category image */
+.products-image {
+    width: 20%;
+    height: auto;
+    margin-top: -10px;
+    float: left;
+}
+
+/* Hover effect */
+.products-button:hover .category-image {
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+/* Product Section Flexbox Layout */
+.pdf-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+
+/* Product Card Styling */
+.pdf-card {
+    display: flex;
+    /*border: 1px solid #ddd;
+    border-radius: 8px;*/
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    background: #fff;
+    padding: 20px;
+    gap: 20px;
+}
+
+
+
+
+/* Main Image Container */
+.pdf-main-image-container {
+    flex: 1; /* Takes full left-side space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Dynamically adjusts height */
+    max-height: 500px; /* Optional: Limit maximum height for consistency */
+    border: none; /* Remove border if desired */
+}
+
+/* Main Image Styling */
+.pdf-main-image-container img {
+    width: 100%; /* Makes the image fill the entire container */
+    height: 100%; /* Ensures full height */
+    object-fit: contain; /* Ensures the image covers the container without distortion */
+    border-radius: 8px; /* Optional: Add rounded corners */
+}
+
+
+
+
+
+
+
+
+
+
+/* Product Details Section */
+.pdf-info {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    /*border-left: 2px solid #E10073;*/
+    justify-content: center; /* Vertically centers content */
+    align-items: center; /* Horizontally centers content */
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-left: 25px;
+}
+
+.pdf-title {
+    color: #103E8D;
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.pdf-info p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+
+.pdf-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.pdf-cta button {
+    background-color: #1f2ac9;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    justify-content: flex-start;
+    transition: transform 0.2s;
+}
+
+.pdf-cta button:hover {
+    background: #103E8D;
+    transform: scale(1.05);
+}
+
+
+
+/*
+
+.house-product {
+    padding: 40px 0;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.house-product h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+    color: #103E8D;
+    text-align: center;
+}
+
+/* Product Card Styling 
+.product-card {
+    display: flex;
+    flex-direction: row;
+    /*align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: solid 5px;
+    background-color: white;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.product-image {
+    width: 30%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.product-info {
+    flex: 1;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 90px;
+}
+
+.product-title {
+    font-size: 2em;
+    color: #103E8D;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+
+.quantity-section {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    color: #E10073;
+    margin-bottom: 20px;
+}
+
+.quantity-section span {
+    margin-right: 10px;
+}
+
+.quantity-select {
+    padding: 5px;
+    border: 2px solid #E10073;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: #E10073;
+    font-size: 1em;
+}
+
+/* Product Features Image Styling 
+.product-features {
+    width: 50%;
+    height: auto;
+    margin-top: 10px;
+}
+
+*/
+/* Product Card Container */
+/* Product Section Styling */
+
+
+
+
+
+
+/*
+
+.product-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #ffffff;
+    margin-top: 50px;
+}
+
+/* Product Card Container
+.product-card {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px;
+    background: #fff;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Static Product Image 
+.product-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#product-image {
+    width: 100%;
+    max-width: 350px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+*/
+
+
+/* Product Section Flexbox Layout */
+.product-section {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+
+/* Product Card Styling */
+.product-card {
+    display: flex;
+
+
+     /* border: 1px solid #ddd;
+   border-radius: 8px;*/
+
+
+    background-color: #fff;
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px;
+    background: #fff;
+    padding: 20px;
+    gap: 20px;
+}
+
+
+/* Main Image Display */
+.main-image-container {
+    width: 500px;
+    height: 500px;
+    border: 3px solid #ABE9FF;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/* Thumbnails Section */
+.thumbnail-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 10px;
+    
+}
+
+.thumbnail {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: border 0.3s ease;
+}
+
+.thumbnail:hover {
+    border: 2px solid #3EBDEA;
+}
+
+
+
+
+
+
+
+
+
+
+/* Product Details Section */
+.product-info {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    /*border-left: 2px solid #E10073;*/
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    height: auto;
+    margin-left: 25px;
+}
+
+.product-title {
+    color: #103E8D;
+    font-size: 44px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    text-align: left;
+}
+
+/* Available Quantity Section */
+.product-quantity {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+.product-quantity span {
+    font-size: 18px;
+    font-weight: 600;
+    color: #103E8D;
+}
+
+.product-quantity select {
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 4px;
+    border: 2px solid #3EBDEA;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.product-cta {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.product-cta button {
+    background-color: #3EBDEA;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    justify-content: flex-start;
+    transition: transform 0.2s;
+}
+
+.product-cta button:hover {
+    background: #103E8D;
+    transform: scale(1.05);
+}
+
+/* Description Paragraph for Spacing */
+.product-description {
+    text-align: left;
+    color: #666;
+    margin: 15px 0;
+    margin-left: 30px;
+    font-size: 18px;
+    max-width: 80%;
+}
+
+/* Description Paragraph for Spacing */
+.more-info {
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 18px;
+    width: 100%;
+    display: justify;
+    background-color: #ABE9FF;
+    
+}
+
+.product-about {
+    justify-content: center;
+    width: 100%;
+    font-weight: lighter;
+    padding: 40px 100px;
+    margin-top: 40px;
+
+}
+.product-about p {
+    font-weight: lighter;
+    padding: 40px 100px;
+    text-align: center;
+    justify-content: center;
+    color: #103E8D;
+    font-size: 26px;
+    padding-left: 120px;
+    padding-right: 120px;
+
+}
+
+.more-info h1 {
+    text-align: center;
+    color: #E10073;
+    font-size: 36px;
+    margin-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 100%;
+    font-size: 2.5em;
+}
+
+
+/* Features Section */
+.product-features {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    gap: 50px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.feature-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #103E8D;
+    gap: 15px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.feature-item img {
+    width: 60px;
+    height: 60px;
+}
+
+
+
+
+
+.featured-products h2{
+    text-align: center;
+    padding: 40px 0;
+    font-size: 3em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #103E8D;
+}
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.product {
+    text-align: center;
+}
+
+.product img {
+    width: 180px;
+    margin-bottom: 10px;
+}
+
+.product p{
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #103E8D;
+}
+
+.product button {
+    background-color: #3EBDEA;
+    border-radius: 30px;
+    color: white;
+    padding: 7px 10px;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    justify-content: flex-start;
+    transition: transform 0.2s;
+}
+
+.product button:hover {
+    background: #284D97;
+    transform: scale(1.05);
+}
+
+
+
+
+/* Related Products Section Styling */
+.related-products h2 {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 2.5em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #103E8D;
+}
+
+/* Grid Layout for Products */
+.related-product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+    justify-items: center;
+    padding: 0 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 250px;
+}
+
+/* Individual Product Styling */
+.related-product {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.related-product:hover {
+    transform: translateY(-10px);
+}
+
+.related-product img {
+    width: 180px;
+    margin-bottom: 10px;
+    object-fit: contain;
+}
+
+.related-product p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #103E8D;
+}
+
+/* Button Styling */
+.related-product button {
+    background-color: #3EBDEA;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+}
+
+.related-product button:hover {
+    background: #284D97;
+    transform: scale(1.05);
+}
+
+
+
+
+/* Household Products Section Styling */
+.household-products h2 {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 2.5em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #103E8D;
+}
+
+/* Grid Layout for Products */
+.house-product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+    justify-items: center;
+    padding: 0 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 80px;
+}
+
+/* Individual Product Styling */
+.house-product {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.house-product:hover {
+    transform: translateY(-10px);
+}
+
+.house-product img {
+    width: 180px;
+    margin-bottom: 10px;
+    object-fit: contain;
+}
+
+.house-product p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #103E8D;
+}
+
+/* Button Styling */
+.house-product button {
+    background-color: #3EBDEA;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+}
+
+.house-product button:hover {
+    background: #103E8D;
+    transform: scale(1.05);
+}
+
+.download-button {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically if needed */
+    padding: 10px; /* Adds a bit of space around the button container */
+}
+
+.download-button button {
+    display: flex;
+    align-items: center; /* Align icon and text vertically */
+    justify-content: center;
+    gap: 10px; /* Space between icon and text */
+    width: 500px; /* Make the button wider */
+    max-width: 100%; /* Ensure it doesn't overflow */
+    background-color: #6eb4ff;
+    border-radius: 30px;
+    color: white;
+    padding: 20px 20px; /* Adjust padding for a wider button */
+    border: none;
+    font-size: 1.2em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+}
+
+.download-button button:hover {
+    background: #2170c4;
+    transform: scale(1.05);
+}
+
+.pdf-icon {
+    width: 24px; /* Adjust size as needed */
+    height: 24px;
+}
+
+
+
+/* business Products Section Styling */
+.business-products h2 {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 2.5em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #103E8D;
+}
+
+/* Grid Layout for Products */
+.biz-product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+    justify-items: center;
+    padding: 0 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 250px;
+}
+
+/* Individual Product Styling */
+.biz-product {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.biz-product:hover {
+    transform: translateY(-10px);
+}
+
+.biz-product img {
+    width: 180px;
+    margin-bottom: 10px;
+    object-fit: contain;
+}
+
+.biz-product p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #103E8D;
+}
+
+/* Button Styling */
+.biz-product button {
+    background-color: #3EBDEA;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+}
+
+.biz-product button:hover {
+    background: #103E8D;
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+.journey {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.journ {
+    text-align: center;
+    padding: 40px 100px;
+    background-color: #ABE9FF;
+    height: 500px;
+}
+
+.journ h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #103E8D;
+}
+
+.journ p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #103E8D;
+    font-weight: medium;
+}
+
+.map {
+    width: 80%;
+    margin-top: -200px;
+    border: 3px solid #103E8D;
+    border-radius: 120px;
+}
+
+.instagram {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.instagram h2 {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #103E8D;
+}
+
+.instagram p {
+    font-size: 1.5em;
+    margin-bottom: 60px;
+    color: #103E8D;
+    font-weight: medium;
+}
+
+.instagram-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    margin: 0 80px; /* Margin on the left and right */
+}
+
+.insta-post img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    
+}
+
+/* Button styling */
+.instagram button {
+    margin-top: 60px;
+    margin-bottom: 200px;
+    background-color: #3EBDEA;
+    border-radius: 30px;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    font-size: 1.4em;
+    font-weight: bold;
+    cursor: pointer;
+    justify-content: flex-start;
+    transition: transform 0.2s;
+}
+
+.instagram button:hover {
+    background-color: #284D97;
+    transform: scale(1.05);
+}
+
+
+
+
+.application {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.application h2 {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #103E8D;
+}
+
+.application p {
+    font-size: 1em;
+    margin-bottom: 60px;
+    color: #103E8D;
+    font-weight: medium;
+}
+
+.application-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin: 0 80px; /* Margin on the left and right */
+}
+
+.application-area {
+    font-weight: bold;
+    
+}
+
+.application-area img {
+
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    object-fit: contain;
+    object-fit: cover;
+    
+}
+
+/* Button styling */
+.application button {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    background-color: #ff6e8a;
+    border-radius: 30px;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    font-size: 1.4em;
+    font-weight: bold;
+    cursor: pointer;
+    justify-content: flex-start;
+    transition: transform 0.2s;
+}
+
+.application button:hover {
+    background-color: #e65d79;
+    transform: scale(1.05);
+}
+
+footer {
+    margin-top: -200px;
+    position: relative;
+    padding: 40px 80px;
+    background: url('Assets/Shape Footer.png') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 40px;
+    overflow: hidden;
+
+   
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 30px;
+}
+
+.footer-left .footer-logo img {
+    height: 500px; 
+    margin-top: 200px;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 350px;
+}
+.contact-info {
+    margin-right: 80px;
+}
+
+.contact-info h3, .social-media h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.contact-info p {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.social-media a {
+    display: inline;
+    align-items: flex-start;
+    margin: 5px 0;
+}
+
+.icon {
+    margin-right: 10px;
+    height: 20px;
+}
+
+.social-icon {
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.footer-nav {
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    padding-top: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer-nav nav a {
+    margin: 0 15px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer-nav p {
+    margin-top: 40px;
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
